@@ -5,11 +5,11 @@ import random as rnd
 
 # Класс, хранящий параметры игры
 class Param:
-    size_field_square = 6  # рекомендуемое максимальное значение 9, минимальное 6
-    numb_torpedo = 4
-    numb_destroyer = 2
-    numb_cruiser = 1
-    max_score = numb_torpedo + numb_destroyer * 2 + numb_cruiser * 3
+    size_field_square = 6  # размер игрового поля рекомендуемое максимальное значение 9, минимальное 6
+    numb_torpedo = 4       # количество одноклеточных кораблей
+    numb_destroyer = 2     # количество двухклеточных кораблей
+    numb_cruiser = 1       # количество трехклеточных кораблей
+    max_score = numb_torpedo + numb_destroyer * 2 + numb_cruiser * 3  # общее количество кораблей
 
 
 # класс позиции, хранящий значения х и у
