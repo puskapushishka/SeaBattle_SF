@@ -467,3 +467,4 @@ if __name__ == "__main__":
     gui.run()                                                       # стартуем игру
 
 
+# SkillFactory FPW140 kabachev@bk.ru
